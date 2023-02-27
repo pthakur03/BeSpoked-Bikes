@@ -1,6 +1,6 @@
 # BeSpoked-Bikes
 ### Tech Stack: 
-Flask web frameworkfor the backend (Python & SQLAlchemy object-relational mapping mechanism) and HTML, CSS, and JavaScript for the frontend, 
+Flask web framework for the backend (Python & SQLAlchemy object-relational mapping mechanism) and HTML, CSS, and JavaScript for the frontend, 
 
 ### Brainstorming Process & Course of Action: 
 Create the database schema:
