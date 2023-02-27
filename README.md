@@ -10,7 +10,7 @@ Define the API endpoints:
 We need to define the endpoints for each operation mentioned in the requirements. For example, the /salespersons endpoint can be used to retrieve a list of all salespersons, the /salespersons/<id> endpoint can be used to update a specific salesperson, and so on. We will use Flask's routing mechanism to define these endpoints.
 
 Implement the business logic:
-We need to implement the business logic for each operation. For example, when creating a new sale, we need to update the product's quantity on hand, calculate the salesperson's commission, and update the sales table with the new sale data. We will use Python functions to implement this logic and call them from the API endpoints. Industry create, read, update, and delete (CRUD) standard code structure works really well for this project's implementation. 
+We need to implement the business logic for each operation. For example, when creating a new sale, we need to update the product's quantity on hand, calculate the salesperson's commission, and update the sales table with the new sale data. We will use Python functions to implement this logic and call them from the API endpoints. Industry standard create, read, update, and delete (CRUD) RESTful API structure works really well for this project's implementation. 
 
 Define the frontend pages:
 We need to create HTML templates for each frontend page, such as the salesperson list page, product list page, and sales report page. We will use Jinja2 templating engine to render these templates with data from the API. The frontend pages should correctly communicate information from the backend through the middleground client API. 
