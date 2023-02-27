@@ -1,9 +1,9 @@
 # BeSpoked-Bikes
-Tech Stack: Flask web frameworkfor the backend (Python & SQLAlchemy object-relational mapping mechanism) and HTML, CSS, and JavaScript for the frontend, 
+### Tech Stack: Flask web frameworkfor the backend (Python & SQLAlchemy object-relational mapping mechanism) and HTML, CSS, and JavaScript for the frontend, 
 
-Brainstorming Process & Course of Action: 
+### Brainstorming Process & Course of Action: 
 Create the database schema:
-We need to define the database schema based on the entities mentioned in the requirements. We can use SQLAlchemy to define the schema and create the tables in the database. We will also insert some sample data for testing purposes.
+We need to define the database schema based on the entities mentioned in the requirements. We can use SQLAlchemy to define the schema and create the tables in the database. 
 
 Define the API endpoints:
 We need to define the endpoints for each operation mentioned in the requirements. For example, the /salespersons endpoint can be used to retrieve a list of all salespersons, the /salespersons/<id> endpoint can be used to update a specific salesperson, and so on. We will use Flask's routing mechanism to define these endpoints.
@@ -17,12 +17,8 @@ We need to create HTML templates for each frontend page, such as the salesperson
 Test the application:
 We need to test the application by running it locally and checking if all the operations are working as expected.
 
-Strengths:
-Optimized space complexity based on given inputs
-Universal attributes quickly accessible as instance variables
-Programmer productivity - current implementation is readily scalable
+### Strengths:
+Optimized space complexity based on given inputs, universal attributes quickly accessible as instance variables, programmer productivity - current implementation is readily scalable
 
-Room for Improvement:
-Technical barrier...most efficent tech stack? Issues running Flask framework on local machine
-Unique methods for ORM queries and models separate from traditional raw SQL & C#/.Net work environments - learning curve!
-Timing
+### Room for Improvement:
+Technical barrier...most efficent tech stack? Issues running Flask framework on local machine, unique methods for ORM queries and models separate from traditional raw SQL & C#/.Net work environments - learning curve, timing
